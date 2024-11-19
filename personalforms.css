@@ -1,0 +1,63 @@
+form {
+    color: red;
+}
+#contact-page-root-container{
+    border: 2px solid blue;
+    border-radius: 5%;
+    padding: 20px;
+}
+label {
+    letter-spacing: 1px;
+}
+.form-element-container-1 {
+    display: flex;
+    float: inline-start;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    margin-bottom: 1.5rem;
+    flex-flow: column;
+
+}
+.form-element-container-2 {
+    display: flex;
+    float: inline-end;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    margin-bottom: 1.5rem;
+    flex-flow: column;
+
+}
+.form-element-container-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    margin-bottom: 1.5rem;
+    flex-flow: column wrap;
+
+}
+.form-element-container-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    margin-bottom: 1.5rem;
+    flex-flow: column;
+
+}
+.form-element-container-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    margin-bottom: 1.5rem;
+    flex-flow: column;
+
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
