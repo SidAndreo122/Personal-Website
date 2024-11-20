@@ -7,19 +7,36 @@
     <link rel="stylesheet" href="personalforms.css">
 </head>
 <body>
-    <div id="contact-page-root-container">
+    <div>
+        <nav class="nav">
+            <div id="me">
+                <img class="avatar" src="images/avatar.jpg">
+            </div>
+            <div id="nav-menu">
+                <a class="nav-link" href="home">Home Page</a>
+                <a class="nav-link" href="about me">About Me</a>
+                <a class="nav-link" href="contactme.html">Contact Me</a>
+                <a class="nav-link" href="home">Projects</a>
+            </div>
+        </nav>
+        <div id="Contact-title-text">
+            <h1>Contact Me!</h1>
+        </div>
+        
+    </div>
+    <div id="contact-form-root-container">
         <form>
             <div class="form-element-container-1">
                 <label for="name">Name</label>
-                <input type="text" id="nameinput" name="name" required>
+                <input type="text" id="nameinput" placeholder="Sidney Andreano" name="name" required>
             </div>
             <div class="form-element-container-2">
                 <label for="email">Email</label>
-                <input type="email" id="Emailinput" name="email" required>
+                <input type="email" id="Emailinput" placeholder="sidney.andreano@yahoo.com" name="email" required>
             </div>
             <div class="form-element-container-3">
                 <label for="phonenumber">Phone Number (Optional)</label>
-                <input type="tel" id="PhoneInput" name="phone-number" pattern="^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$">
+                <input type="tel" id="PhoneInput" placeholder="(603)-553-4650" name="phone-number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
             </div>
             <div class="form-element-container-4">
                 <label for="subject">Subject</label>
@@ -39,7 +56,6 @@
             <br/>
             
     
-            </textarea>
         </form>
     </div>
     

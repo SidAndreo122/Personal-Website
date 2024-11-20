@@ -1,7 +1,26 @@
 form {
     color: red;
 }
-#contact-page-root-container{
+
+.nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+
+}
+#Contact-title-text {
+    text-align: center;
+}
+
+/* #me{
+    
+} */
+.avatar {
+    width: 100px;
+    border-radius: 50%;
+}
+#contact-form-root-container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +46,8 @@ textarea {
     resize: none;
 }
 input[type=submit]{
-    padding: 14px;
+    width: 50%;
+    padding: 20px;
     background-color: #4CAF50;
     color: white;
     letter-spacing: 1px;
