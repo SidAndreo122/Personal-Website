@@ -2,60 +2,76 @@ form {
     color: red;
 }
 #contact-page-root-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 2px solid blue;
-    border-radius: 5%;
+    border-radius: 15px;
     padding: 20px;
     margin: 10px;
 }
 label {
     letter-spacing: 1px;
 }
+input[type=text], input[type=tel], input[type=email], textarea {
+    padding: 7px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    border: 1px solid;
+    width: 100%;
+    margin-top: .5rem;
+}
+textarea {
+    height: 150px;
+    font-size: 15px;
+    resize: none;
+}
+input[type=submit]{
+    padding: 14px;
+    background-color: #4CAF50;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer; 
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
 .form-element-container-1 {
-    display: flex;
-    float: inline-start;
-    justify-content: center;
-    align-items: center;
     gap: .5rem;
     margin-bottom: 1.5rem;
     flex-flow: column;
-
 }
 .form-element-container-2 {
-    display: flex;
-    float: inline-end;
-    justify-content: center;
-    align-items: center;
+    
     gap: .5rem;
     margin-bottom: 1.5rem;
     flex-flow: column;
 
 }
 .form-element-container-3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
     gap: .5rem;
     margin-bottom: 1.5rem;
-    flex-flow: column wrap;
+    flex-flow: column;
 
 }
 .form-element-container-4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
     gap: .5rem;
     margin-bottom: 1.5rem;
     flex-flow: column;
 
 }
 .form-element-container-5 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
     gap: .5rem;
     margin-bottom: 1.5rem;
     flex-flow: column;
 
+}
+.form-element-container-6 {
+    text-align: center;
+    
 }
 * {
     box-sizing: border-box;
