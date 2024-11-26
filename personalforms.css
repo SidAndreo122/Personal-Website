@@ -51,7 +51,7 @@ li a:hover:not(#active){
 }
 @font-face {
     font-family: contact_me_font;
-    src: url("FunnelSans-Regular.ttf");
+    src: url("fonts/FunnelSans-Regular.ttf");
 }
 #Contact-title-text {
     text-align: center;
