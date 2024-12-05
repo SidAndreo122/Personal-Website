@@ -56,6 +56,37 @@ li a:hover:not(#active){
     border-radius: 50%;
     margin-left: 20px;
 }
+@font-face {
+    font-family: contact_me_font;
+    src: url("fonts/FunnelSans-Regular.ttf");
+}
+#Contact-title-text {
+    text-align: center;
+    padding: 20px;
+    font-family: contact_me_font;
+}
+.grid-container {
+    display: grid;
+    grid-template: 150px 150px 150px / 0.5fr 0.5fr;
+    gap: 42px;
+    padding: 20px;
+    margin: 30px;
+}
+.card {
+    background-color: rgb(75, 56, 56);
+    border: 1px solid black;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.card > div {
+    height: 50px;
+    flex: 0 1 30%;
+  }
+.github-icon {
+    
+    border-radius: 50%;
+}
 * {
     box-sizing: border-box;
     margin: 0;
