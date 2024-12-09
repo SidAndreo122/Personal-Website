@@ -67,25 +67,97 @@ li a:hover:not(#active){
 }
 .grid-container {
     display: grid;
-    grid-template: 150px 150px 150px / 0.5fr 0.5fr;
+    grid-template: 200px 200px 200px / 0.5fr 0.5fr;
     gap: 42px;
     padding: 20px;
     margin: 30px;
+    
 }
 .card {
     background-color: rgb(75, 56, 56);
     border: 1px solid black;
     display: flex;
-    text-align: center;
-    justify-content: space-between;
+    flex-flow: wrap;
+    flex-direction: column;
+    align-items: center; /* stretch maybe*/
+    justify-content: flex-start;
+    
 }
 .card > div {
     height: 50px;
     flex: 0 1 30%;
-  }
+}
+hr {
+    width: 50%;
+    border: 1px solid rgb(66, 73, 73);
+}
 .github-icon {
-    
+    margin: 5px;
     border-radius: 50%;
+}
+.project-title-group {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    box-sizing: border-box;
+    flex-grow: 0;
+    width: 100%;
+}
+.project-title-text {
+    margin: 5px;
+    font-family: contact_me_font;
+    font-weight: bold;
+    
+}
+.dashboard-subtext-container {
+    font-family: contact_me_font;
+    margin-bottom: 12px;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 1.55;
+}
+.lang-badges {
+    height: 16px;
+    line-height: 14px;
+    text-decoration: none;
+    padding: 0px 6.66667px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    text-transform: uppercase;
+    border-radius: 32px;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    cursor: default;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+#python-badge {
+    background-color: #4CAF50;
+}
+#Csharp-badge {
+    background-color: gray;
+}
+#html-badge {
+    background-color: #f59e0b;
+}
+#Css-badge {
+    background-color: #38bdf8;
+}
+#js-badge {
+    background-color: #fde047;
+}
+.badge-title {
+    font-family: contact_me_font;
+    font-size: 12px;
+    font-weight: 900;
+    padding: 0 6.667px;
+    border: 1px solid black;
+    border-radius: 32px;
+    cursor: default;
 }
 * {
     box-sizing: border-box;
